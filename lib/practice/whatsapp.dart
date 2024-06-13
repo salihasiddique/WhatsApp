@@ -19,7 +19,15 @@ class _whatsappState extends State<whatsapp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: ListView(
+      appBar: AppBar(
+        title: Text("WhatsApp"),
+        actions: [NavigationBar(destinations: )
+
+        ],
+      ),
+
+      body:
+      ListView(
         children: [
           Text("Contacts",style: GoogleFonts.aBeeZee(
 
@@ -32,6 +40,7 @@ class _whatsappState extends State<whatsapp> {
               leading: Image.asset("assets/images/lion.png"),
             ),
           ),
+
           Card(
             child: ListTile(
               title: Text("home"),
